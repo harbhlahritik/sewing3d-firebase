@@ -320,18 +320,38 @@ nav	a {
   color: #1C1C1C;
 }
 
+.buttons button:hover svg{
+  fill: #000000;
+}
+
 /* product images slides */
 
 .slide:nth-child(1) {
-  background: url(../img/laptop_stand_2.jpg) no-repeat center center/cover;
+  background: url(../img/web/faceshield_1.jpg) no-repeat center center/cover;
 }
 
 .slide:nth-child(2) {
-  background: url(../img/laptop_stand_1.jpg) no-repeat center center/cover;
+  background: url(../img/web/faceshield_2.jpg) no-repeat center center/cover;
 }
 
 .slide:nth-child(3) {
-  background: url(../img/personal/helicopter.jpeg) no-repeat center center/cover;
+  background: url(../img/web/maskstrap.jpg) no-repeat center center/cover;
+}
+
+.slide:nth-child(4) {
+  background: url(../img/web/phone_stand.jpg) no-repeat center center/cover;
+}
+
+.slide:nth-child(5) {
+  background: url(../img/web/lithopane.jpg) no-repeat center center/cover;
+}
+
+.slide:nth-child(6) {
+  background: url(../img/web/laptop_stand_1.jpg) no-repeat center center/cover;
+}
+
+.slide:nth-child(7) {
+  background: url(../img/web/laptop_stand_2.jpg) no-repeat center center/cover;
 }
 
 /* make-space */
@@ -548,6 +568,8 @@ textarea::placeholder {
   color: #9F9F9F;
   text-align: center;
   font-size: 0.8rem;
+  position: relative;
+  bottom: 0;
 }
 
 .credits {
@@ -556,10 +578,6 @@ textarea::placeholder {
   text-align: right;
   font-size: 0.8rem;
 }
-
-
-
-
 
 @media screen and (max-width: 768px) {
 
@@ -724,17 +742,32 @@ textarea::placeholder {
   /* product images slides */
 
   .slide:nth-child(1) {
-    background: url(../img/laptop_stand_2_mobile.jpg) no-repeat center center/cover;
+    background: url(../img/mobile/faceshield_1.jpg) no-repeat center center/cover;
   }
 
   .slide:nth-child(2) {
-    background: url(../img/laptop_stand_1_mobile.jpg) no-repeat center center/cover;
+    background: url(../img/mobile/faceshield_2.jpg) no-repeat center center/cover;
   }
 
   .slide:nth-child(3) {
-    background: url(../img/personal/helicopter.jpeg) no-repeat center center/cover;
+    background: url(../img/mobile/maskstrap.jpg) no-repeat center center/cover;
   }
 
+  .slide:nth-child(4) {
+    background: url(../img/mobile/phone_stand.jpg) no-repeat center center/cover;
+  }
+
+  .slide:nth-child(5) {
+    background: url(../img/mobile/lithopane.jpg) no-repeat center center/cover;
+  }
+
+  .slide:nth-child(6) {
+    background: url(../img/mobile/laptop_stand_1.jpg) no-repeat center center/cover;
+  }
+
+  .slide:nth-child(7) {
+    background: url(../img/mobile/laptop_stand_2.jpg) no-repeat center center/cover;
+  }
 
   /* contact us */
 
