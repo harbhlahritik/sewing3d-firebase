@@ -362,6 +362,61 @@ nav	a {
   width: 100%;
 }
 
+/* Price List Page */
+
+.price-list {
+  background-color: #000000;
+  color: #FFFFFF;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.price-list .price-list-table {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex: 1 1 0px;
+  width: 100%;
+}
+
+.price-header {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.price-header h1 {
+  font-size: 50px;
+}
+
+.price-list-table {
+  font-size: 1.2rem;
+  color: #9F9F9F;
+}
+
+.product-list-div {
+  margin: 0px auto;
+}
+
+.product-list-ul {
+  list-style-type: none;
+}
+
+.price-list-div {
+  margin: 0px auto;
+}
+
+.price-list-ul {
+  list-style-type: none;
+}
+
+.delivery-charges {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #9F9F9F;
+}
+
 /* Contact Us Page */
 
 .contact {
