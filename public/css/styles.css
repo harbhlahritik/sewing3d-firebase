@@ -78,6 +78,17 @@ nav	a {
   color: #9F9F9F;
 }
 
+.landing-logo {
+  flex-basis: 0;
+  flex-grow: 1;
+  position: relative;
+  left: 150px;
+}
+
+.landing-logo > img {
+  width: 60%;
+}
+
 .landing .landing-text .landing-text1 {
   font-size: 80px;
   position: relative;
@@ -731,6 +742,11 @@ textarea::placeholder {
 
   .landing-text {
     left: -10px;
+  }
+
+  .landing-logo {
+    left: 20%;
+    top: 25%;
   }
 
   .landing-img {
